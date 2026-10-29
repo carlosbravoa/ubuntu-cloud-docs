@@ -39,7 +39,7 @@ Requirements
     
     sudo apt install ubuntu-advantage-tools
 
-* If you have a custom LTS image which hasn't run ``cloud-init`` for the first time in AWS, you'll need to clean and init it for the Pro commands to work correctly.
+* If you have a custom LTS image which hasn't run ``cloud-init`` for the first time in AWS, you'll need to run ``sudo cloud-init clean`` and reboot for the Pro commands to work correctly.
 
 * To give the required network access to your instances, refer to the Ubuntu Pro related `network requirements`_ and `proxy configuration`_
 
